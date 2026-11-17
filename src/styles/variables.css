@@ -1,0 +1,54 @@
+:root {
+  /* Premium Purple-to-Blue Theme Palette */
+  --bg-gradient-hero: linear-gradient(135deg, #2d0a4e 0%, #1c0b3b 25%, #10143d 50%, #0d1d4d 75%, #0b2866 100%);
+  --bg-gradient-page: linear-gradient(180deg, #18092e 0%, #0e0a2b 30%, #0b1338 60%, #08173d 100%);
+  --bg-gradient-accent: linear-gradient(135deg, #a855f7 0%, #6366f1 50%, #3b82f6 100%);
+  --bg-gradient-button: linear-gradient(135deg, #9333ea 0%, #6366f1 50%, #2563eb 100%);
+  --bg-gradient-button-hover: linear-gradient(135deg, #a855f7 0%, #818cf8 50%, #3b82f6 100%);
+
+  /* Glassmorphism Surfaces */
+  --bg-glass: rgba(255, 255, 255, 0.06);
+  --bg-glass-card: rgba(255, 255, 255, 0.08);
+  --bg-glass-card-hover: rgba(255, 255, 255, 0.12);
+  --bg-glass-nav: rgba(20, 8, 42, 0.75);
+
+  /* Borders & Dividers */
+  --border-glass: rgba(255, 255, 255, 0.16);
+  --border-glass-light: rgba(255, 255, 255, 0.25);
+  --border-purple-glow: rgba(168, 85, 247, 0.6);
+  --border-blue-glow: rgba(59, 130, 246, 0.6);
+
+  /* Typography Colors (White & Modern) */
+  --text-white: #ffffff;
+  --text-primary: #ffffff;
+  --text-secondary: rgba(255, 255, 255, 0.88);
+  --text-muted: rgba(255, 255, 255, 0.68);
+  --text-faint: rgba(255, 255, 255, 0.45);
+  --text-accent-purple: #c084fc;
+  --text-accent-blue: #60a5fa;
+  --text-accent-cyan: #38bdf8;
+
+  /* Glows & Shadows */
+  --glow-circle-purple: 0 0 35px rgba(168, 85, 247, 0.6), 0 0 70px rgba(99, 102, 241, 0.35);
+  --glow-button: 0 4px 20px rgba(147, 51, 234, 0.45);
+  --glow-card-hover: 0 12px 30px rgba(168, 85, 247, 0.2);
+
+  /* Layout & Radii */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+  --radius-full: 9999px;
+
+  --container-max: 1200px;
+  --nav-height: 76px;
+
+  /* Fonts */
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  /* Transitions */
+  --transition-fast: 0.18s ease;
+  --transition-normal: 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-smooth: 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
